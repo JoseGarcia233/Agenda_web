@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Phonebook</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Phonebook</h1>
+  <div class="container">
+    <div class="show">
+      <form id="form">
+        <input type="text" name="nam" placeholder="Write your name ">
+        <input type="text" name="last-n" placeholder="Write your last name ">
+        <input type="text" name="nump" placeholder="Write your number phone">
+        <input type="submit" id="btn" value="save" data-btn/>
+      </form>
+    </div>
+  </div>
+  <h1>Phonebook List</h1>
+  <div class="table-con">
+    <table class="tbl">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Last Name</th>
+          <th>Number Phone</th>
+        </tr>
+      </thead>
+      <tbody id="dt">
+      </tbody>
+    </table>
+  </div>
+  <script src="js/funcions.js"></script>
+</body>
+</html>
