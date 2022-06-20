@@ -34,11 +34,11 @@ form.addEventListener("submit", async (ev) => {
   postdata(Api, data)
     .then((value) => {
       console.log(value)
+      window.location.reload()
     })
     .catch((err) => {
       console.log(err)
     })
-  window.location.reload()
 })
 
 
